@@ -1,0 +1,8 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Run
+metadata:
+  generateName: group-run-
+spec:
+  ref:
+    apiVersion: example.dev/v0
+    kind: GroupTask
